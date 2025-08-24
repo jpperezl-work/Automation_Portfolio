@@ -1,38 +1,51 @@
-target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
-
-### IntelliJ IDEA ###
-.idea/modules.xml
-.idea/jarRepositories.xml
-.idea/compiler.xml
-.idea/libraries/
-*.iws
+# =========================================
+# IntelliJ IDEA
+# =========================================
+.idea/
 *.iml
-*.ipr
+out/
 
-### Eclipse ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
+# =========================================
+# Maven
+# =========================================
+target/
+dependency-reduced-pom.xml
+buildNumber.properties
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
+# =========================================
+# Logs & reports
+# =========================================
+*.log
+*.tmp
+*.swp
+*.swo
+*.DS_Store
+Thumbs.db
 
-### VS Code ###
-.vscode/
+# Reportes de Allure
+allure-results/
+allure-report/
 
-### Mac OS ###
-.DS_Store
+# =========================================
+# Java
+# =========================================
+*.class
+
+# =========================================
+# Archivos de librerías locales (no versionar JARs)
+# =========================================
+*.jar
+*.war
+*.ear
+
+# =========================================
+# Configuración del sistema operativo
+# =========================================
+ehthumbs.db
+Icon?
+desktop.ini
+
+# =========================================
+# Archivos de pruebas temporales
+# =========================================
+*.orig
